@@ -22,7 +22,7 @@ allprojects {
 In the `build.gradle` for your app include:
 
 ```gradle
-compile 'com.newtronlabs.easyroutes:easyroutes:1.0.0'
+compile 'com.newtronlabs.easyroutes:easyroutes:1.0.1'
 ```
 
 
