@@ -11,6 +11,17 @@ Route traffic the easy way.
 Include the below dependency in your `build.gradle` project.
 
 ```gradle
+buildscript {
+    repositories {
+        jcenter()
+        maven { url "http://code.newtronlabs.com:8081/artifactory/libs-release-local" }
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:2.3.3'
+        classpath "com.newtronlabs.android:plugin:1.0.0"
+    }
+}
+
 allprojects {
     repositories {
         jcenter()
@@ -22,7 +33,11 @@ allprojects {
 In the `build.gradle` for your app include:
 
 ```gradle
-compile 'com.newtronlabs.easyroutes:easyroutes:1.0.1'
+apply plugin: 'com.newtronlabs.android'
+
+dependencies {
+    provided 'com.newtronlabs.easyroutes:easyroutes:2.0.0'
+}
 ```
 
 
