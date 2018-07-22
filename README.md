@@ -1,7 +1,3 @@
-Please take a few minutes and let us know how we are doing by filling out this survey: https://goo.gl/forms/97TYeG6Wx5CA4lBV2
-
----
-
 # Easy Routes
 
 Route traffic the easy way.
@@ -101,4 +97,4 @@ You are solely responsible for determining the appropriateness of using Easy Rou
 
 ## Contact
 
-contact@newtronlabs.com
+solutions@newtronlabs.com
